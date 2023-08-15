@@ -95,9 +95,9 @@ const ServicesSlider = () => {
                     },
                 }}
                 modules={[Navigation, Autoplay, Pagination]}
-                // autoplay={{
-                //     delay: 3000,
-                // }}
+                autoplay={{
+                    delay: 3000,
+                }}
                 // pagination={true}
                 spaceBetween={100}
                 slidesPerView={3}
