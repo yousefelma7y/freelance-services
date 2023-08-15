@@ -1,0 +1,74 @@
+.logo{
+    height: 70px;
+}
+.nav-shadow{
+    position:absolute;
+    top: 0px;
+    left: 55%;
+}
+.shadow-svg{
+    width: 180px;
+    height: 41px;
+}
+
+.navbar{
+    background-color: white !important;
+    border-bottom: 4px  solid #12355B !important ;
+}
+
+.nav{
+    color:#12355B !important;
+}
+.nav:hover{ 
+    color: white !important;
+    background-color:#133e6cc0 !important;
+    border-radius: 10px;
+}
+.nav:active{ 
+    color: white !important;
+    background-color:#133e6cc0 !important;
+    border-radius: 10px;
+}
+
+.nav-active{
+    color: white !important;
+    background-color:#12355B !important;
+    border-radius: 10px;
+}
+
+.menu-icon{
+    font-size:40px !important;
+    color:#12355B ;
+}   
+
+
+.navbar-toggler{
+    border: 0px !important;
+}
+
+.navbar-toggler-icon{
+    display: none !important;
+}
+.navbar-toggler:focus{
+
+--bs-navbar-toggler-focus-width: 0rem !important;
+
+}
+.icon{
+    color: #FE6E00 ;
+}
+@media only screen and (max-width: 800px) { 
+    .nav-shadow{
+        left: 40%;
+    }
+    .shadow-svg{
+        height: 31px;
+    }
+}
+@media only screen and (max-width:550px) { 
+
+}
+
+@media only screen and (max-width: 500px) { 
+
+}

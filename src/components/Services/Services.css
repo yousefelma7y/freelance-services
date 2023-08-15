@@ -1,0 +1,46 @@
+.swiper-button-prev{
+    color: #FE6E00 !important;
+
+}
+.swiper-button-next{
+    color: #FE6E00 !important;
+
+}
+
+.h1-color{
+  color: #12355B !important;
+}
+.p-color{
+  color: #FE6E00 !important;
+}
+
+.card{
+  /* background-color:  #2377d130 !important; */
+  background-size: cover;
+  color: #12355B !important;
+  border: 2px solid #12355B !important; 
+  border-radius: 80px 20px !important;
+  text-shadow: 3px 0px 2px rgba(255, 255, 255, 0.8);
+
+}
+.overlay{
+  transition: opacity 0.7s ease-in-out ; 
+  height: 100%;
+  width: 100.2%; 
+  opacity: 0;
+  color: #1a599b;
+}
+
+.card:hover .overlay{
+opacity: 1;
+}
+/* .card:hover .overlay-h
+{
+  color: white;
+} */
+.card:hover .overlay-div{
+  height: 100%;
+  border-radius: 80px 20px !important;
+  transition: opacity 0.7s ease-in-out ; 
+  backdrop-filter: blur(5px) !important;
+}

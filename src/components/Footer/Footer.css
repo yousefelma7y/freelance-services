@@ -1,0 +1,51 @@
+
+.footer-body{
+    z-index: 1;
+}
+.email-input{
+    background: transparent;
+}
+.email-input::placeholder{ 
+    color: #FE6E00 ;
+}
+
+.footer-h6{
+    color: #12355B ;
+}
+.footer-logo{
+    width: 40%;
+}
+
+.footer-btn{
+    background-color: #FE6E00  ;
+    border: 0px;
+    color: white;
+    border-radius: 100%;
+
+}
+.footer-btn:hover{
+    background-color: #FD5602  ;
+}
+.pink-p{
+    color: #FE6E00;
+}
+
+@media only screen and (max-width: 767px) { 
+    .footer-logo{
+        width: 20%;
+    }
+}
+
+@media only screen and (max-width: 713px) { 
+    .wave{
+        height: 150px !important;
+        width: 1500px !important;
+    }
+}
+@media only screen and (max-width: 428px) { 
+    .wave{
+        height: 100px !important;
+        width: 1500px !important;
+    }
+}
+

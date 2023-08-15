@@ -1,0 +1,29 @@
+.home-page{
+  background-color:  #2377d130 ;
+  color: #12355B;
+}
+.header{
+  text-shadow: 4px 2px 3px rgba(105, 104, 104, 0.525);
+}
+
+/* .more-btn{
+  border: 0px ;
+  background-color: #12355B;
+  color: white;
+  border-radius: 10px;
+}
+.more-btn:hover{
+  background-color: #164271e6 ;
+
+} */
+
+.more-btn{
+  border: 0px ;
+  background-color: #FE6E00;
+  color: white;
+  border-radius: 10px;
+}
+.more-btn:hover{
+  background-color: #FD5602 ;
+
+}
