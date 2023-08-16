@@ -9,10 +9,10 @@ import './Footer.css'
 
 const Footer = () => {
     return (
-        <div className='col-12 p-0 m-0 footer-body layer2 home-page'>
+        <div className='col-12 p-0 m-0 footer-body layer2 home-page '>
             <MDBFooter className='text-center text-lg-start text-muted '>
                 <section className=''>
-                    <MDBContainer className='text-center text-md-start mt-5'>
+                    <MDBContainer className='text-center text-md-start mt-5 p-1'>
                         <MDBRow className='mt-3 '>
 
                             <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4 '>
@@ -69,7 +69,7 @@ const Footer = () => {
                     </MDBContainer>
                 </section>
 
-                <div className='text-center  p-4 ' style={{ color: 'black' }}>
+                <div className='text-center p-2 copyright' style={{ color: 'black' }}>
                     Copyright © 2023.
                     <span className='text-reset mx-2'>
                         All Right Reserved.

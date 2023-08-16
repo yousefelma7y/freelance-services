@@ -12,6 +12,9 @@ const Home = () => {
         <div>
 
           <h1 className='header p-4'>
+            <svg className='home-circle' width="55" height="55" viewBox="0 0 67 67" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="40.5" cy="20.5" r="21" fill="#12355B" fillOpacity="0.3" />
+            </svg>
             SMART
           </h1>
           <p className='text-start'>

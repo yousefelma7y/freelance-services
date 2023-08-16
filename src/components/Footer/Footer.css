@@ -29,6 +29,9 @@
 .pink-p{
     color: #FE6E00;
 }
+.copyright{
+    background-color: rgba(67, 67, 67, 0.318);
+}
 
 @media only screen and (max-width: 767px) { 
     .footer-logo{

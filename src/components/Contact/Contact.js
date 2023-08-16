@@ -17,6 +17,7 @@ const Contact = () => {
 
       <div className='blue text-white p-5'>
         <h1 className='header'>
+          
           Contact us :
         </h1>
         <p>
